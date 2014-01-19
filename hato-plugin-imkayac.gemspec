@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Hato::Plugin::ImKayac::VERSION
   spec.authors       = ["Keisuke KITA"]
   spec.email         = ["kei.kita2501@gmail.com"]
-  spec.description   = %q{Hato plugin to send messages Via ImKayac}
-  spec.summary       = %q{Hato plugin to send messages Via ImKayac}
+  spec.description   = %q{Hato plugin to send messages via ImKayac}
+  spec.summary       = %q{Hato plugin to send messages via ImKayac}
   spec.homepage      = ""
   spec.license       = "MIT"
 
