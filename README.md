@@ -13,7 +13,7 @@ Hato::Config.define do
   # ...
 
   tag 'test' do
-    plugin 'ImKayac' do
+    plugin 'Imkayac' do
       username 'username'
       password 'yes your password here if you use password authentication'
       secret   'yes your secret key here if you use secret key authentication'
