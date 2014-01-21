@@ -1,4 +1,4 @@
-# Hato::Plugin::ImKayac
+# Hato::Plugin::Imkayac
 
 This plugin provides a method to send messages via [im.kayac.com](http://im.kayac.com/).
 
