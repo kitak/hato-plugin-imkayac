@@ -5,7 +5,7 @@ require 'hato/plugin/imkayac/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "hato-plugin-imkayac"
-  spec.version       = Hato::Plugin::ImKayac::VERSION
+  spec.version       = Hato::Plugin::Imkayac::VERSION
   spec.authors       = ["Keisuke KITA"]
   spec.email         = ["kei.kita2501@gmail.com"]
   spec.description   = %q{Hato plugin to send messages via ImKayac}

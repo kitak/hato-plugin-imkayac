@@ -5,13 +5,13 @@ require "im-kayac"
 
 module Hato
   module Plugin
-    class ImKayac < Base
+    class Imkayac < Base
       def notify(args)
-        args[:to] = args[:username]
-        args[:post] = args[:message]
-        [:to, :password, :secret, :handler, :post].inject(ImKayac) do |im_kayac, key|
-          args.has_key?(key) ? im_kayac.send(key, args[key]) : im_kayac
+        im_kayac = ImKayac.to(config.username)
+        [:password, :secret, :handler].each do |_|
+          im_kayac.send(_, config.send(_)) if config.send(_)
         end
+        im_kayac.post(args[:message])
       end
     end
   end
